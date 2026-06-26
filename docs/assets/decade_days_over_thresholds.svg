@@ -1,0 +1,78 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1120" height="650" viewBox="0 0 1120 650">
+<style>
+text{font-family:Inter,Segoe UI,Arial,sans-serif;fill:#1f2933}
+.title{font-size:26px;font-weight:700}.subtitle{font-size:14px;fill:#52606d}
+.axis{stroke:#52606d;stroke-width:1}.grid{stroke:#d9e2ec;stroke-width:1}
+.tick{font-size:12px;fill:#52606d}.legend{font-size:13px;fill:#334e68}
+</style>
+<rect width="1120" height="650" fill="#fbfcfe"/>
+<text x="82" y="34" class="title">Germany hot-day thresholds by 10-year period</text>
+<text x="82" y="55" class="subtitle">Total calendar days where at least one DWD station exceeded each TXK threshold</text>
+<line x1="82" y1="572" x2="1086" y2="572" class="axis"/>
+<line x1="82" y1="62" x2="82" y2="572" class="axis"/>
+<line x1="82" y1="572.0" x2="1086" y2="572.0" class="grid"/>
+<text x="72" y="576.0" text-anchor="end" class="tick">0</text>
+<line x1="82" y1="487.0" x2="1086" y2="487.0" class="grid"/>
+<text x="72" y="491.0" text-anchor="end" class="tick">20</text>
+<line x1="82" y1="402.0" x2="1086" y2="402.0" class="grid"/>
+<text x="72" y="406.0" text-anchor="end" class="tick">40</text>
+<line x1="82" y1="317.0" x2="1086" y2="317.0" class="grid"/>
+<text x="72" y="321.0" text-anchor="end" class="tick">60</text>
+<line x1="82" y1="232.0" x2="1086" y2="232.0" class="grid"/>
+<text x="72" y="236.0" text-anchor="end" class="tick">80</text>
+<line x1="82" y1="147.0" x2="1086" y2="147.0" class="grid"/>
+<text x="72" y="151.0" text-anchor="end" class="tick">100</text>
+<line x1="82" y1="62.0" x2="1086" y2="62.0" class="grid"/>
+<text x="72" y="66.0" text-anchor="end" class="tick">120</text>
+<line x1="153.7" y1="572" x2="153.7" y2="578" class="axis"/>
+<text x="153.7" y="596" text-anchor="middle" class="tick">1956-65</text>
+<line x1="297.1" y1="572" x2="297.1" y2="578" class="axis"/>
+<text x="297.1" y="596" text-anchor="middle" class="tick">1966-75</text>
+<line x1="440.6" y1="572" x2="440.6" y2="578" class="axis"/>
+<text x="440.6" y="596" text-anchor="middle" class="tick">1976-85</text>
+<line x1="584.0" y1="572" x2="584.0" y2="578" class="axis"/>
+<text x="584.0" y="596" text-anchor="middle" class="tick">1986-95</text>
+<line x1="727.4" y1="572" x2="727.4" y2="578" class="axis"/>
+<text x="727.4" y="596" text-anchor="middle" class="tick">1996-05</text>
+<line x1="870.9" y1="572" x2="870.9" y2="578" class="axis"/>
+<text x="870.9" y="596" text-anchor="middle" class="tick">2006-15</text>
+<line x1="1014.3" y1="572" x2="1014.3" y2="578" class="axis"/>
+<text x="1014.3" y="596" text-anchor="middle" class="tick">2016-25</text>
+<text transform="translate(22 317.0) rotate(-90)" text-anchor="middle" class="tick">days per 10-year period</text>
+<rect x="100.9" y="448.8" width="22.9" height="123.2" fill="#d97706"/>
+<rect x="128.5" y="572.0" width="22.9" height="0.0" fill="#dc2626"/>
+<rect x="156.0" y="572.0" width="22.9" height="0.0" fill="#7f1d1d"/>
+<rect x="183.5" y="572.0" width="22.9" height="0.0" fill="#374151"/>
+<rect x="244.4" y="504.0" width="22.9" height="68.0" fill="#d97706"/>
+<rect x="271.9" y="572.0" width="22.9" height="0.0" fill="#dc2626"/>
+<rect x="299.4" y="572.0" width="22.9" height="0.0" fill="#7f1d1d"/>
+<rect x="327.0" y="572.0" width="22.9" height="0.0" fill="#374151"/>
+<rect x="387.8" y="431.8" width="22.9" height="140.2" fill="#d97706"/>
+<rect x="415.3" y="572.0" width="22.9" height="0.0" fill="#dc2626"/>
+<rect x="442.9" y="572.0" width="22.9" height="0.0" fill="#7f1d1d"/>
+<rect x="470.4" y="572.0" width="22.9" height="0.0" fill="#374151"/>
+<rect x="531.2" y="363.8" width="22.9" height="208.2" fill="#d97706"/>
+<rect x="558.8" y="572.0" width="22.9" height="0.0" fill="#dc2626"/>
+<rect x="586.3" y="572.0" width="22.9" height="0.0" fill="#7f1d1d"/>
+<rect x="613.8" y="572.0" width="22.9" height="0.0" fill="#374151"/>
+<rect x="674.6" y="334.0" width="22.9" height="238.0" fill="#d97706"/>
+<rect x="702.2" y="559.2" width="22.9" height="12.8" fill="#dc2626"/>
+<rect x="729.7" y="572.0" width="22.9" height="0.0" fill="#7f1d1d"/>
+<rect x="757.3" y="572.0" width="22.9" height="0.0" fill="#374151"/>
+<rect x="818.1" y="253.2" width="22.9" height="318.8" fill="#d97706"/>
+<rect x="845.6" y="563.5" width="22.9" height="8.5" fill="#dc2626"/>
+<rect x="873.2" y="572.0" width="22.9" height="0.0" fill="#7f1d1d"/>
+<rect x="900.7" y="572.0" width="22.9" height="0.0" fill="#374151"/>
+<rect x="961.5" y="142.8" width="22.9" height="429.2" fill="#d97706"/>
+<rect x="989.0" y="559.2" width="22.9" height="12.8" fill="#dc2626"/>
+<rect x="1016.6" y="567.8" width="22.9" height="4.2" fill="#7f1d1d"/>
+<rect x="1044.1" y="572.0" width="22.9" height="0.0" fill="#374151"/>
+<rect x="890" y="78" width="14" height="10" fill="#d97706"/>
+<text x="912" y="88" class="legend">&gt; 35 C</text>
+<rect x="890" y="100" width="14" height="10" fill="#dc2626"/>
+<text x="912" y="110" class="legend">&gt; 40 C</text>
+<rect x="890" y="122" width="14" height="10" fill="#7f1d1d"/>
+<text x="912" y="132" class="legend">&gt; 41 C</text>
+<rect x="890" y="144" width="14" height="10" fill="#374151"/>
+<text x="912" y="154" class="legend">&gt; 42 C</text>
+</svg>

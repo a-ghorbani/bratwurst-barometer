@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Germany Temperature Trends</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <main>
+    <header class="hero">
+      <p class="eyebrow">DWD Climate Data Center analysis</p>
+      <h1>Germany temperature trends, 1956-2025</h1>
+      <p class="lede">Annual temperature and station heat-extreme metrics computed from public DWD data.</p>
+      <div class="stats">
+        <div><strong>1094</strong><span>station files with data</span></div>
+        <div><strong>13,754,565</strong><span>station-days parsed</span></div>
+        <div><strong>2024</strong><span>warmest annual mean: 10.89 C</span></div>
+        <div><strong>2019</strong><span>hottest station-day: 41.2 C</span></div>
+      </div>
+    </header>
+
+    
+        <section class="chart">
+          <div class="chart-copy">
+            <h2>Hot-day thresholds by 10-year period</h2>
+            <p>One total per period for days where at least one DWD station exceeded each threshold.</p>
+          </div>
+          <img src="assets/decade_days_over_thresholds.svg" alt="Hot-day thresholds by 10-year period chart" loading="lazy">
+        </section>
+        
+
+        <section class="chart">
+          <div class="chart-copy">
+            <h2>Temperature anomalies by 10-year period</h2>
+            <p>Germany-wide mean temperature and station-day TXK p95 relative to 1976-2005.</p>
+          </div>
+          <img src="assets/decade_temperature_anomalies.svg" alt="Temperature anomalies by 10-year period chart" loading="lazy">
+        </section>
+        
+
+        <section class="chart">
+          <div class="chart-copy">
+            <h2>Annual station heat extremes</h2>
+            <p>Annual hottest station-day maximum and annual 95th percentile of station-day maximum temperature.</p>
+          </div>
+          <img src="assets/annual_heat_extremes.svg" alt="Annual station heat extremes chart" loading="lazy">
+        </section>
+        
+
+        <section class="chart">
+          <div class="chart-copy">
+            <h2>Annual mean temperature</h2>
+            <p>DWD Germany-wide regional annual mean air temperature.</p>
+          </div>
+          <img src="assets/annual_mean_temperature.svg" alt="Annual mean temperature chart" loading="lazy">
+        </section>
+        
+
+        <section class="chart">
+          <div class="chart-copy">
+            <h2>Annual hot-day thresholds</h2>
+            <p>Year-by-year comparison of days exceeding 35, 40, 41, and 42 C.</p>
+          </div>
+          <img src="assets/days_over_thresholds.svg" alt="Annual hot-day thresholds chart" loading="lazy">
+        </section>
+        
+
+    <section class="notes">
+      <h2>Methodology</h2>
+      <p>Germany-wide annual mean temperature comes from DWD's regional annual air-temperature series. Station heat-extreme metrics are computed from DWD daily KL observations using <code>TXK</code>, the daily maximum air temperature.</p>
+      <p>The main decade chart uses fixed 10-year periods from 1956-65 through 2016-25. A day above a threshold is counted once per calendar date if at least one included station exceeds that threshold.</p>
+      <p>Station coverage changes over time, so early-period extreme counts are best read as observed station-network counts rather than a perfectly homogeneous national climatology.</p>
+      <p>Latest 10-year period: <strong>2016-25</strong>, mean annual temperature 10.15 C, TXK p95 28.65 C.</p>
+      <p><a href="assets/annual_temperature_metrics.csv">Annual CSV</a> · <a href="assets/decade_temperature_metrics.csv">10-year period CSV</a></p>
+    </section>
+  </main>
+</body>
+</html>

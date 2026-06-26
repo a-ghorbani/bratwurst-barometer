@@ -1,0 +1,116 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1120" height="650" viewBox="0 0 1120 650">
+<style>
+text{font-family:Inter,Segoe UI,Arial,sans-serif;fill:#1f2933}
+.title{font-size:26px;font-weight:700}.subtitle{font-size:14px;fill:#52606d}
+.axis{stroke:#52606d;stroke-width:1}.grid{stroke:#d9e2ec;stroke-width:1}
+.tick{font-size:12px;fill:#52606d}.legend{font-size:13px;fill:#334e68}
+</style>
+<rect width="1120" height="650" fill="#fbfcfe"/>
+<text x="82" y="34" class="title">Germany days over 40 C</text>
+<text x="82" y="55" class="subtitle">Calendar days per year where at least one DWD station reported TXK &gt; 40 C</text>
+<line x1="82" y1="572" x2="1086" y2="572" class="axis"/>
+<line x1="82" y1="62" x2="82" y2="572" class="axis"/>
+<line x1="82" y1="572.0" x2="1086" y2="572.0" class="grid"/>
+<text x="72" y="576.0" text-anchor="end" class="tick">0</text>
+<line x1="82" y1="487.0" x2="1086" y2="487.0" class="grid"/>
+<text x="72" y="491.0" text-anchor="end" class="tick">0.5</text>
+<line x1="82" y1="402.0" x2="1086" y2="402.0" class="grid"/>
+<text x="72" y="406.0" text-anchor="end" class="tick">1</text>
+<line x1="82" y1="317.0" x2="1086" y2="317.0" class="grid"/>
+<text x="72" y="321.0" text-anchor="end" class="tick">1.5</text>
+<line x1="82" y1="232.0" x2="1086" y2="232.0" class="grid"/>
+<text x="72" y="236.0" text-anchor="end" class="tick">2</text>
+<line x1="82" y1="147.0" x2="1086" y2="147.0" class="grid"/>
+<text x="72" y="151.0" text-anchor="end" class="tick">2.5</text>
+<line x1="82" y1="62.0" x2="1086" y2="62.0" class="grid"/>
+<text x="72" y="66.0" text-anchor="end" class="tick">3</text>
+<line x1="82.0" y1="572" x2="82.0" y2="578" class="axis"/>
+<text x="82.0" y="596" text-anchor="middle" class="tick">1956</text>
+<line x1="140.2" y1="572" x2="140.2" y2="578" class="axis"/>
+<text x="140.2" y="596" text-anchor="middle" class="tick">1960</text>
+<line x1="285.7" y1="572" x2="285.7" y2="578" class="axis"/>
+<text x="285.7" y="596" text-anchor="middle" class="tick">1970</text>
+<line x1="431.2" y1="572" x2="431.2" y2="578" class="axis"/>
+<text x="431.2" y="596" text-anchor="middle" class="tick">1980</text>
+<line x1="576.7" y1="572" x2="576.7" y2="578" class="axis"/>
+<text x="576.7" y="596" text-anchor="middle" class="tick">1990</text>
+<line x1="722.2" y1="572" x2="722.2" y2="578" class="axis"/>
+<text x="722.2" y="596" text-anchor="middle" class="tick">2000</text>
+<line x1="867.7" y1="572" x2="867.7" y2="578" class="axis"/>
+<text x="867.7" y="596" text-anchor="middle" class="tick">2010</text>
+<line x1="1013.2" y1="572" x2="1013.2" y2="578" class="axis"/>
+<text x="1013.2" y="596" text-anchor="middle" class="tick">2020</text>
+<line x1="1086.0" y1="572" x2="1086.0" y2="578" class="axis"/>
+<text x="1086.0" y="596" text-anchor="middle" class="tick">2025</text>
+<text transform="translate(22 317.0) rotate(-90)" text-anchor="middle" class="tick">days</text>
+<rect x="76.8" y="572.0" width="10.3" height="0.0" fill="#cbd5e1"/>
+<rect x="91.4" y="572.0" width="10.3" height="0.0" fill="#cbd5e1"/>
+<rect x="105.9" y="572.0" width="10.3" height="0.0" fill="#cbd5e1"/>
+<rect x="120.5" y="572.0" width="10.3" height="0.0" fill="#cbd5e1"/>
+<rect x="135.0" y="572.0" width="10.3" height="0.0" fill="#cbd5e1"/>
+<rect x="149.6" y="572.0" width="10.3" height="0.0" fill="#cbd5e1"/>
+<rect x="164.1" y="572.0" width="10.3" height="0.0" fill="#cbd5e1"/>
+<rect x="178.7" y="572.0" width="10.3" height="0.0" fill="#cbd5e1"/>
+<rect x="193.2" y="572.0" width="10.3" height="0.0" fill="#cbd5e1"/>
+<rect x="207.8" y="572.0" width="10.3" height="0.0" fill="#cbd5e1"/>
+<rect x="222.3" y="572.0" width="10.3" height="0.0" fill="#cbd5e1"/>
+<rect x="236.9" y="572.0" width="10.3" height="0.0" fill="#cbd5e1"/>
+<rect x="251.4" y="572.0" width="10.3" height="0.0" fill="#cbd5e1"/>
+<rect x="266.0" y="572.0" width="10.3" height="0.0" fill="#cbd5e1"/>
+<rect x="280.5" y="572.0" width="10.3" height="0.0" fill="#cbd5e1"/>
+<rect x="295.1" y="572.0" width="10.3" height="0.0" fill="#cbd5e1"/>
+<rect x="309.6" y="572.0" width="10.3" height="0.0" fill="#cbd5e1"/>
+<rect x="324.2" y="572.0" width="10.3" height="0.0" fill="#cbd5e1"/>
+<rect x="338.7" y="572.0" width="10.3" height="0.0" fill="#cbd5e1"/>
+<rect x="353.3" y="572.0" width="10.3" height="0.0" fill="#cbd5e1"/>
+<rect x="367.9" y="572.0" width="10.3" height="0.0" fill="#cbd5e1"/>
+<rect x="382.4" y="572.0" width="10.3" height="0.0" fill="#cbd5e1"/>
+<rect x="397.0" y="572.0" width="10.3" height="0.0" fill="#cbd5e1"/>
+<rect x="411.5" y="572.0" width="10.3" height="0.0" fill="#cbd5e1"/>
+<rect x="426.1" y="572.0" width="10.3" height="0.0" fill="#cbd5e1"/>
+<rect x="440.6" y="572.0" width="10.3" height="0.0" fill="#cbd5e1"/>
+<rect x="455.2" y="572.0" width="10.3" height="0.0" fill="#cbd5e1"/>
+<rect x="469.7" y="572.0" width="10.3" height="0.0" fill="#cbd5e1"/>
+<rect x="484.3" y="572.0" width="10.3" height="0.0" fill="#cbd5e1"/>
+<rect x="498.8" y="572.0" width="10.3" height="0.0" fill="#cbd5e1"/>
+<rect x="513.4" y="572.0" width="10.3" height="0.0" fill="#cbd5e1"/>
+<rect x="527.9" y="572.0" width="10.3" height="0.0" fill="#cbd5e1"/>
+<rect x="542.5" y="572.0" width="10.3" height="0.0" fill="#cbd5e1"/>
+<rect x="557.0" y="572.0" width="10.3" height="0.0" fill="#cbd5e1"/>
+<rect x="571.6" y="572.0" width="10.3" height="0.0" fill="#cbd5e1"/>
+<rect x="586.1" y="572.0" width="10.3" height="0.0" fill="#cbd5e1"/>
+<rect x="600.7" y="572.0" width="10.3" height="0.0" fill="#cbd5e1"/>
+<rect x="615.2" y="572.0" width="10.3" height="0.0" fill="#cbd5e1"/>
+<rect x="629.8" y="572.0" width="10.3" height="0.0" fill="#cbd5e1"/>
+<rect x="644.3" y="572.0" width="10.3" height="0.0" fill="#cbd5e1"/>
+<rect x="658.9" y="572.0" width="10.3" height="0.0" fill="#cbd5e1"/>
+<rect x="673.4" y="572.0" width="10.3" height="0.0" fill="#cbd5e1"/>
+<rect x="688.0" y="572.0" width="10.3" height="0.0" fill="#cbd5e1"/>
+<rect x="702.5" y="572.0" width="10.3" height="0.0" fill="#cbd5e1"/>
+<rect x="717.1" y="572.0" width="10.3" height="0.0" fill="#cbd5e1"/>
+<rect x="731.6" y="572.0" width="10.3" height="0.0" fill="#cbd5e1"/>
+<rect x="746.2" y="572.0" width="10.3" height="0.0" fill="#cbd5e1"/>
+<rect x="760.7" y="62.0" width="10.3" height="510.0" fill="#c2410c"/>
+<rect x="775.3" y="572.0" width="10.3" height="0.0" fill="#cbd5e1"/>
+<rect x="789.8" y="572.0" width="10.3" height="0.0" fill="#cbd5e1"/>
+<rect x="804.4" y="572.0" width="10.3" height="0.0" fill="#cbd5e1"/>
+<rect x="818.9" y="572.0" width="10.3" height="0.0" fill="#cbd5e1"/>
+<rect x="833.5" y="572.0" width="10.3" height="0.0" fill="#cbd5e1"/>
+<rect x="848.0" y="572.0" width="10.3" height="0.0" fill="#cbd5e1"/>
+<rect x="862.6" y="572.0" width="10.3" height="0.0" fill="#cbd5e1"/>
+<rect x="877.1" y="572.0" width="10.3" height="0.0" fill="#cbd5e1"/>
+<rect x="891.7" y="572.0" width="10.3" height="0.0" fill="#cbd5e1"/>
+<rect x="906.2" y="572.0" width="10.3" height="0.0" fill="#cbd5e1"/>
+<rect x="920.8" y="572.0" width="10.3" height="0.0" fill="#cbd5e1"/>
+<rect x="935.3" y="232.0" width="10.3" height="340.0" fill="#c2410c"/>
+<rect x="949.9" y="572.0" width="10.3" height="0.0" fill="#cbd5e1"/>
+<rect x="964.4" y="572.0" width="10.3" height="0.0" fill="#cbd5e1"/>
+<rect x="979.0" y="572.0" width="10.3" height="0.0" fill="#cbd5e1"/>
+<rect x="993.5" y="232.0" width="10.3" height="340.0" fill="#c2410c"/>
+<rect x="1008.1" y="572.0" width="10.3" height="0.0" fill="#cbd5e1"/>
+<rect x="1022.6" y="572.0" width="10.3" height="0.0" fill="#cbd5e1"/>
+<rect x="1037.2" y="402.0" width="10.3" height="170.0" fill="#c2410c"/>
+<rect x="1051.7" y="572.0" width="10.3" height="0.0" fill="#cbd5e1"/>
+<rect x="1066.3" y="572.0" width="10.3" height="0.0" fill="#cbd5e1"/>
+<rect x="1080.8" y="572.0" width="10.3" height="0.0" fill="#cbd5e1"/>
+</svg>
