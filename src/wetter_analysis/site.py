@@ -174,7 +174,7 @@ def generate_site(output_dir: Path, docs_dir: Path) -> None:
       <p><a href="assets/annual_temperature_metrics.csv">Annual CSV</a> · <a href="assets/decade_temperature_metrics.csv">10-year period CSV</a></p>
     </section>
   </main>
-  <script src="site.js"></script>
+  <script src="site.js?v=20260626-plotly-category-axis"></script>
 </body>
 </html>
 """
