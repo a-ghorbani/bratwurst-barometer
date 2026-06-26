@@ -68,46 +68,6 @@ def generate_site(output_dir: Path, docs_dir: Path) -> None:
     warmest = annual.loc[annual["annual_mean_c"].idxmax()]
     latest_period = periods.tail(1).iloc[0]
 
-    static_chart_sections = [
-        (
-            "Static period chart",
-            "SVG export of the 10-year hot-day threshold comparison.",
-            "decade_days_over_thresholds.svg",
-        ),
-        (
-            "Static anomaly chart",
-            "SVG export of 10-year temperature anomalies.",
-            "decade_temperature_anomalies.svg",
-        ),
-        (
-            "Annual station heat extremes",
-            "Annual hottest station-day maximum and annual 95th percentile of station-day maximum temperature.",
-            "annual_heat_extremes.svg",
-        ),
-        (
-            "Annual mean temperature",
-            "DWD Germany-wide regional annual mean air temperature.",
-            "annual_mean_temperature.svg",
-        ),
-        (
-            "Annual hot-day thresholds",
-            "Year-by-year comparison of days exceeding 35, 40, 41, and 42 C.",
-            "days_over_thresholds.svg",
-        ),
-    ]
-    static_cards = "\n".join(
-        f"""
-        <section class="chart static-chart">
-          <div class="chart-copy">
-            <h2>{html.escape(title)}</h2>
-            <p>{html.escape(description)}</p>
-          </div>
-          <img src="assets/{filename}" alt="{html.escape(title)} chart" loading="lazy">
-        </section>
-        """
-        for title, description, filename in static_chart_sections
-    )
-
     html_text = f"""<!doctype html>
 <html lang="en">
 <head>
@@ -163,15 +123,13 @@ def generate_site(output_dir: Path, docs_dir: Path) -> None:
       <div id="annual-mean" class="plot" aria-label="Interactive annual mean temperature"></div>
     </section>
 
-    {static_cards}
-
     <section class="notes">
       <h2>Methodology</h2>
       <p>Germany-wide annual mean temperature comes from DWD's regional annual air-temperature series. Station heat-extreme metrics are computed from DWD daily KL observations using <code>TXK</code>, the daily maximum air temperature.</p>
       <p>The 10-year chart uses fixed periods from {html.escape(str(periods.iloc[0]['period']))} through {html.escape(str(latest_period['period']))}. A day above a threshold is counted once per calendar date if at least one included station exceeds that threshold.</p>
       <p>Station coverage changes over time, so early-period extreme counts are best read as observed station-network counts rather than a perfectly homogeneous national climatology.</p>
       <p>Latest 10-year period: <strong>{html.escape(str(latest_period['period']))}</strong>, mean annual temperature {latest_period['mean_annual_mean_c']:.2f} C, TXK p95 {latest_period['mean_stationday_txk_p95_c']:.2f} C.</p>
-      <p><a href="assets/annual_temperature_metrics.csv">Annual CSV</a> · <a href="assets/decade_temperature_metrics.csv">10-year period CSV</a></p>
+      <p><a href="assets/annual_temperature_metrics.csv">Annual CSV</a> · <a href="assets/decade_temperature_metrics.csv">10-year period CSV</a> · <a href="assets/decade_days_over_thresholds.svg">SVG export</a></p>
     </section>
   </main>
   <script src="site.js?v=20260626-plotly-category-axis"></script>
@@ -303,10 +261,6 @@ p {
   min-height: 560px;
   border: 1px solid var(--line);
   background: #fff;
-}
-
-.static-chart {
-  background: linear-gradient(180deg, transparent, rgba(238, 243, 248, .45));
 }
 
 a {

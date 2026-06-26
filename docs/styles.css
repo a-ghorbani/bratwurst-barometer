@@ -120,10 +120,6 @@ p {
   background: #fff;
 }
 
-.static-chart {
-  background: linear-gradient(180deg, transparent, rgba(238, 243, 248, .45));
-}
-
 a {
   color: #0b5cad;
 }

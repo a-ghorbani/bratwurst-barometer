@@ -53,59 +53,13 @@
       <div id="annual-mean" class="plot" aria-label="Interactive annual mean temperature"></div>
     </section>
 
-    
-        <section class="chart static-chart">
-          <div class="chart-copy">
-            <h2>Static period chart</h2>
-            <p>SVG export of the 10-year hot-day threshold comparison.</p>
-          </div>
-          <img src="assets/decade_days_over_thresholds.svg" alt="Static period chart chart" loading="lazy">
-        </section>
-        
-
-        <section class="chart static-chart">
-          <div class="chart-copy">
-            <h2>Static anomaly chart</h2>
-            <p>SVG export of 10-year temperature anomalies.</p>
-          </div>
-          <img src="assets/decade_temperature_anomalies.svg" alt="Static anomaly chart chart" loading="lazy">
-        </section>
-        
-
-        <section class="chart static-chart">
-          <div class="chart-copy">
-            <h2>Annual station heat extremes</h2>
-            <p>Annual hottest station-day maximum and annual 95th percentile of station-day maximum temperature.</p>
-          </div>
-          <img src="assets/annual_heat_extremes.svg" alt="Annual station heat extremes chart" loading="lazy">
-        </section>
-        
-
-        <section class="chart static-chart">
-          <div class="chart-copy">
-            <h2>Annual mean temperature</h2>
-            <p>DWD Germany-wide regional annual mean air temperature.</p>
-          </div>
-          <img src="assets/annual_mean_temperature.svg" alt="Annual mean temperature chart" loading="lazy">
-        </section>
-        
-
-        <section class="chart static-chart">
-          <div class="chart-copy">
-            <h2>Annual hot-day thresholds</h2>
-            <p>Year-by-year comparison of days exceeding 35, 40, 41, and 42 C.</p>
-          </div>
-          <img src="assets/days_over_thresholds.svg" alt="Annual hot-day thresholds chart" loading="lazy">
-        </section>
-        
-
     <section class="notes">
       <h2>Methodology</h2>
       <p>Germany-wide annual mean temperature comes from DWD's regional annual air-temperature series. Station heat-extreme metrics are computed from DWD daily KL observations using <code>TXK</code>, the daily maximum air temperature.</p>
       <p>The 10-year chart uses fixed periods from 1906-15 through 2016-25. A day above a threshold is counted once per calendar date if at least one included station exceeds that threshold.</p>
       <p>Station coverage changes over time, so early-period extreme counts are best read as observed station-network counts rather than a perfectly homogeneous national climatology.</p>
       <p>Latest 10-year period: <strong>2016-25</strong>, mean annual temperature 10.15 C, TXK p95 28.65 C.</p>
-      <p><a href="assets/annual_temperature_metrics.csv">Annual CSV</a> · <a href="assets/decade_temperature_metrics.csv">10-year period CSV</a></p>
+      <p><a href="assets/annual_temperature_metrics.csv">Annual CSV</a> · <a href="assets/decade_temperature_metrics.csv">10-year period CSV</a> · <a href="assets/decade_days_over_thresholds.svg">SVG export</a></p>
     </section>
   </main>
   <script src="site.js?v=20260626-plotly-category-axis"></script>
