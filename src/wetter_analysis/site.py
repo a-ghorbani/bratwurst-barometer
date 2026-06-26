@@ -472,7 +472,7 @@ function plotPeriodThresholds(periods) {
     ...commonLayout,
     barmode: 'group',
     yaxis: { title: 'days per 10-year period', gridcolor: '#e5edf5', rangemode: 'tozero' },
-    xaxis: { title: '10-year period' },
+    xaxis: { title: '10-year period', type: 'category', categoryorder: 'array', categoryarray: x },
   }, config);
 }
 
