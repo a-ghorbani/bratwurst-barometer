@@ -113,6 +113,17 @@ p {
   background: #fff;
 }
 
+.plot {
+  width: 100%;
+  min-height: 560px;
+  border: 1px solid var(--line);
+  background: #fff;
+}
+
+.static-chart {
+  background: linear-gradient(180deg, transparent, rgba(238, 243, 248, .45));
+}
+
 a {
   color: #0b5cad;
 }
@@ -130,4 +141,5 @@ code {
 @media (max-width: 520px) {
   .stats { grid-template-columns: 1fr; }
   .hero { padding-top: 34px; }
+  .plot { min-height: 460px; }
 }

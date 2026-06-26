@@ -1,12 +1,12 @@
 # Germany temperature plot notes
 
-Period: 1956-2025
+Period: 1906-2025
 
 Station data coverage:
 
-- Historical DWD KL station zip files considered: 1249
-- Station files with usable TXK data in period: 1094
-- Parsed station-days in period: 13,754,565
+- Historical DWD KL station zip files considered: 1285
+- Station files with usable TXK data in period: 1145
+- Parsed station-days in period: 16,564,675
 
 Metric definitions:
 

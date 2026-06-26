@@ -1,14 +1,17 @@
 # Germany temperature trends
 
-Reproducible plots and CSV metrics for temperature trends and hot-day extremes
-in Germany, built from public Deutscher Wetterdienst (DWD) Climate Data Center
-data.
+Reproducible plots, CSV metrics, and an interactive GitHub Pages site for
+temperature trends and hot-day extremes in Germany, built from public Deutscher
+Wetterdienst (DWD) Climate Data Center data.
 
-The publication build covers `1956-2025` and summarizes complete 10-year
-periods:
+The command-line default covers `1956-2025`. The published interactive site is
+built from `1906-2025` and opens charts on `1956-2025` by default, so readers
+can zoom out to the earlier data without making the first view noisy.
+
+The interactive site summarizes complete 10-year periods:
 
 ```text
-1956-65, 1966-75, 1976-85, 1986-95, 1996-05, 2006-15, 2016-25
+1906-15, 1916-25, ..., 2016-25
 ```
 
 ## What it generates
@@ -37,9 +40,11 @@ GitHub Pages site:
 
 - `docs/index.html`
 - `docs/styles.css`
+- `docs/site.js`
 - `docs/assets/*`
 
-Configure GitHub Pages to publish from the repository's `docs/` directory.
+The site uses Plotly from a CDN for interactive charts. Static SVG exports are
+kept in `docs/assets/` and `outputs/`.
 
 ## Quick start
 
@@ -49,8 +54,15 @@ python3 germany_temperature_plots.py
 python3 scripts/verify_outputs.py
 ```
 
-The default command builds the publication dataset for `1956-2025`, writes
-charts and CSVs under `outputs/`, and copies site assets into `docs/`.
+The default command builds `1956-2025`, writes charts and CSVs under `outputs/`,
+and copies site assets into `docs/`.
+
+Build the long-history interactive site:
+
+```sh
+python3 germany_temperature_plots.py --start-year 1906 --period-start-year 1906
+python3 scripts/verify_outputs.py
+```
 
 For an installed CLI:
 
@@ -75,6 +87,7 @@ Useful options:
 
 ```sh
 python3 germany_temperature_plots.py --start-year 1881
+python3 germany_temperature_plots.py --start-year 1906 --period-start-year 1906
 python3 germany_temperature_plots.py --start-year 1976 --end-year 2025
 python3 germany_temperature_plots.py --no-site
 ```
@@ -113,5 +126,5 @@ metric is less sensitive to station-count changes than station-day counts, but
 early-period extremes are still observed station-network counts rather than a
 perfectly homogeneous gridded national climatology.
 
-The `> 42 C` chart is expected to be zero for the current publication build:
+The `> 42 C` chart is expected to be zero for the current site build:
 the hottest parsed station-day maximum is `41.2 C`.

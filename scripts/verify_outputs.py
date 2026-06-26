@@ -12,6 +12,11 @@ import pandas as pd
 
 
 EXPECTED_PERIODS = [
+    "1906-15",
+    "1916-25",
+    "1926-35",
+    "1936-45",
+    "1946-55",
     "1956-65",
     "1966-75",
     "1976-85",
@@ -25,6 +30,8 @@ EXPECTED_FILES = [
     "annual_temperature_metrics.csv",
     "decade_temperature_metrics.csv",
     "station_processing_summary.csv",
+    "annual_temperature_metrics.json",
+    "decade_temperature_metrics.json",
     "annual_mean_temperature.svg",
     "annual_heat_extremes.svg",
     "days_over_35c.svg",
@@ -62,11 +69,11 @@ def main() -> None:
     periods = pd.read_csv(output_dir / "decade_temperature_metrics.csv")
     processing = pd.read_csv(output_dir / "station_processing_summary.csv").iloc[0]
 
-    if annual["year"].min() != 1956 or annual["year"].max() != 2025:
-        fail("annual metrics must cover 1956-2025 for the publication build")
+    if annual["year"].min() != 1906 or annual["year"].max() != 2025:
+        fail("annual metrics must cover 1906-2025 for the interactive publication build")
 
     if periods["period"].tolist() != EXPECTED_PERIODS:
-        fail("10-year periods do not match the requested 1956-65 ... 2016-25 sequence")
+        fail("10-year periods do not match the requested 1906-15 ... 2016-25 sequence")
 
     if not (periods["years"] == 10).all():
         fail("all period rows must contain exactly 10 years")
